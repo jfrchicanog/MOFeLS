@@ -1,11 +1,11 @@
-COMPILING THE SOURCES ON A LINUX MACHINE
+# COMPILING THE SOURCES ON A LINUX MACHINE
 
 There is a makefile file to compile the sources. This makefile mut be edited prior to the compilation to set the correct location of the CPLEX path and the name of the CPLEX libraries, which depend on the version installed. The current makefile is prepared for CPLEX 12.6.2 running on a Linux distribution.
 
 Once you edited the makefile, run it with the make command to generate an executable linked with the static library of CPLEX.
 
 
-EXECUTING MOFeLS ALGORITHM
+# EXECUTING MOFeLS ALGORITHM
 
 To execute algorithm MOFeLS, type:
 
@@ -20,14 +20,14 @@ Objective file and lp file
 
 
 
-EXAMPLE
+# EXAMPLE
 
 Execution of instance AP_p-3_n-50_ins-1 during 30 seconds and TILIM = 0.1
 ./MOFeLS Instances/AP_p-3_n-50_ins-1 30 0 full chalmet volume 1 0.1
 
 
 
-DETAILS
+# DETAILS
 
 All the objective cost files and .lp files are provided in the folder Instances
 Objective file archive must have the following format:
