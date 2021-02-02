@@ -1,3 +1,9 @@
+# MOFeLS Algorithm
+
+You can find in this repository the source code of the algorithm implemented for the scientific paper:
+
+* Miguel Ángel Domínguez-Ríos, Fracisco Chicano, Enrique Alba, "Improving Efficiency and Diversity by Using Metaheuristics plus Integer Linear Programming", EvoApplications 2021 (accepted for publication)
+
 # COMPILING THE SOURCES ON A LINUX MACHINE
 
 There is a makefile file to compile the sources. This makefile mut be edited prior to the compilation to set the correct location of the CPLEX path and the name of the CPLEX libraries, which depend on the version installed. The current makefile is prepared for CPLEX 12.6.2 running on a Linux distribution.
